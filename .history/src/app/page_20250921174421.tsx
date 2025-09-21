@@ -1,0 +1,25 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div>
+      <div className="w-full bg-[#000A2D] h-[158px]"></div>
+             <Image
+            aria-hidden
+            className="absolute left-0"
+            src="/1.png"
+            alt="File icon"
+            width={163}
+            height={157}
+          />
+                      <Image
+            aria-hidden
+            className="absolute top-[28px] righ"
+            src="/2.svg"
+            alt="File icon"
+            width={15}
+            height={15}
+          />
+    </div>
+  );
+}
