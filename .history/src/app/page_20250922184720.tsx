@@ -116,18 +116,14 @@ export default function Home() {
 
       </Row>
       <Card />
-      <Center className="relative w-full h-[160px] py-[50px] mt-[35px] px-[58px]">
-        <Row className=" gap-[28px]">
-          <p className="text-white flex-1 text-[24px] text-center">  همین حالا یه دوره رو انتخاب کن و مسیر رو شروع کن</p>
-          <button className="bg-white border-none text-center w-[173px] h-[59px] rounded-[12px] ">شروع یادگیری</button>
-        </Row>
+      <Center className="relative w-[561px] h-[160px] px-[20px]">
         <Image
           aria-hidden
-          className="absolute left-0 z-[-1]"
-          src="/9.png"
+          className="absolute left-0"
+          src="/1.png"
           alt="File icon"
-          width={561}
-          height={160}
+          width={163}
+          height={157}
         />
       </Center>
       <Header className={{ title: "text-[#D30000]" }} title="تخفیفات آموزشی " />

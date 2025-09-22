@@ -1,0 +1,25 @@
+import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
+
+interface FlexProps {
+    children?: ReactNode;
+    className?: string;
+}
+
+function Header({ children, className }: FlexProps) {
+    return (
+    <>
+    </>
+    );
+}
+
+function Card({ children, className }: FlexProps) {
+    return (
+        <div className={cn('flex items-center justify-center', className)}>
+            {children}
+        </div>
+    );
+}
+
+
+export {Card};

@@ -94,7 +94,7 @@ export default function Home() {
         <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px] border-b-solid border-b-[#C9C9C9]">پایتون</div>
         <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px] border-b-solid border-b-[#C9C9C9]">زبان</div>
       </Row>
-      <Row className="mt-[12px] gap-[12px] overflow-y-auto no-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ms-[24px]">
+      <Row className="mt-[12px] gap-[12px] overflow-y-auto no-scrollbar ms-[24px]">
         <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#263A73] text-center text-white text-[15px]">
           <div className="">Html</div>
           <div>34+ دوره</div>
@@ -102,7 +102,7 @@ export default function Home() {
         <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
           <div className="">Css</div>
           <div>34+ دوره</div>
-        </Column>
+        </Column>   
         <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
           <div className="">backend</div>
           <div>34+ دوره</div>
@@ -112,28 +112,14 @@ export default function Home() {
         </Column>           <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
           <div className="">Node.js</div>
           <div>34+ دوره</div>
-        </Column>
-
+        </Column> 
+         
       </Row>
-      <Card />
-      <Center className="relative w-full h-[160px] py-[50px] mt-[35px] px-[58px]">
-        <Row className=" gap-[28px]">
-          <p className="text-white flex-1 text-[24px] text-center">  همین حالا یه دوره رو انتخاب کن و مسیر رو شروع کن</p>
-          <button className="bg-white border-none text-center w-[173px] h-[59px] rounded-[12px] ">شروع یادگیری</button>
-        </Row>
-        <Image
-          aria-hidden
-          className="absolute left-0 z-[-1]"
-          src="/9.png"
-          alt="File icon"
-          width={561}
-          height={160}
-        />
-      </Center>
-      <Header className={{ title: "text-[#D30000]" }} title="تخفیفات آموزشی " />
-      <Card />
-      <Header title="پربازدید ترین ها  " />
-      <Card />
+      <Card /> 
+      <Header className={{title:"text-[#D30000]"}} title="تخفیفات آموزشی " />
+      <Card /> 
+            <Header title="پربازدید ترین ها  " />
+      <Card /> 
     </div>
   );
 }

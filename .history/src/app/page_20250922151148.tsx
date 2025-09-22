@@ -1,5 +1,4 @@
 import { Center, Column, Row } from "@/components/core";
-import { Card, Header } from "@/components/HomePage";
 import Image from "next/image";
 
 export default function Home() {
@@ -45,7 +44,7 @@ export default function Home() {
         <h1 className="text-[28px] text-white pt-[30px] px-[62px]"> با هزاران  آموزش‌  کاربردی، همین امروز شروع کن،
           یاد بگیر و آینده رو بساز.</h1>
         <Row className="mt-[30px] w-[calc(100%-52px)] bg-white p-[8px] gap-[14px] h-[71px] mx-[26px] rounded-[10px]" >
-          <input type="text" className="bg-[#F5F5F5] flex-1 h-full text-black rounded-[8px] px-[24px] " placeholder="چی میخوای یاد بگیری؟" />
+          <input type="text" className="bg-[#F5F5F5] flex-1 h-full col rounded-[8px] px-[24px] " placeholder="چی میخوای یاد بگیری؟" />
           <Center className="bg-[#1D4ED8] w-[56px] h-full rounded-[14px]">
             <img src="/4.svg" />
           </Center>
@@ -86,54 +85,10 @@ export default function Home() {
           <div className="text-[22px]"> موضوعات آموزشی</div>
         </Column>
       </Column>
-      <Header title="موضوعات آموزشی " />
-      <Row className=" overflow-y-auto no-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ms-[24px]">
-        <div className="pe-[18px] flex-shrink-0   text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px]  border-solid border-b-[#C9C9C9]">همه آموزش ها</div>
-        <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#6489F2]  text-[24px] pb-[22px] border-b-[4px] border-solid border-b-[#6489F2]"  > برنامه نویسی</div>
-        <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px]  border-b-solid border-b-[#C9C9C9]">آمار و دادکاوی</div>
-        <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px] border-b-solid border-b-[#C9C9C9]">پایتون</div>
-        <div className="pe-[18px] flex-shrink-0 ps-[18px] text-[#A7A7A7] text-[24px] pb-[22px] border-b-[2px] border-b-solid border-b-[#C9C9C9]">زبان</div>
+      <Row justify="between" className="mt-[44px] mb-[26px] px-[24px]">
+        <h3 className="text-[22px] ">موضوعات آموزشی</h3>
+        <p className="text-[20px] text-[#7894CE]"> مشاهده همه</p>
       </Row>
-      <Row className="mt-[12px] gap-[12px] overflow-y-auto no-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ms-[24px]">
-        <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#263A73] text-center text-white text-[15px]">
-          <div className="">Html</div>
-          <div>34+ دوره</div>
-        </Column>
-        <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
-          <div className="">Css</div>
-          <div>34+ دوره</div>
-        </Column>
-        <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
-          <div className="">backend</div>
-          <div>34+ دوره</div>
-        </Column>           <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
-          <div className="">React</div>
-          <div>34+ دوره</div>
-        </Column>           <Column justify="center" align="center" className=" items-center align-center rounded-[28px] w-[108px] h-[56px]   flex-shrink-0  bg-[#848484] text-center text-white text-[15px]">
-          <div className="">Node.js</div>
-          <div>34+ دوره</div>
-        </Column>
-
-      </Row>
-      <Card />
-      <Center className="relative w-full h-[160px] py-[50px] mt-[35px] px-[58px]">
-        <Row className=" gap-[28px]">
-          <p className="text-white flex-1 text-[24px] text-center">  همین حالا یه دوره رو انتخاب کن و مسیر رو شروع کن</p>
-          <button className="bg-white border-none text-center w-[173px] h-[59px] rounded-[12px] ">شروع یادگیری</button>
-        </Row>
-        <Image
-          aria-hidden
-          className="absolute left-0 z-[-1]"
-          src="/9.png"
-          alt="File icon"
-          width={561}
-          height={160}
-        />
-      </Center>
-      <Header className={{ title: "text-[#D30000]" }} title="تخفیفات آموزشی " />
-      <Card />
-      <Header title="پربازدید ترین ها  " />
-      <Card />
     </div>
   );
 }

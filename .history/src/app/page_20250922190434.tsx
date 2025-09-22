@@ -116,10 +116,10 @@ export default function Home() {
 
       </Row>
       <Card />
-      <Center className="relative w-full h-[160px] py-[50px] mt-[35px] px-[58px]">
+      <Center className="relative w-full h-[160px] px-[20px] mt-[35px] px-">
         <Row className=" gap-[28px]">
-          <p className="text-white flex-1 text-[24px] text-center">  همین حالا یه دوره رو انتخاب کن و مسیر رو شروع کن</p>
-          <button className="bg-white border-none text-center w-[173px] h-[59px] rounded-[12px] ">شروع یادگیری</button>
+          <p className="text-white text-[24px]">  همین حالا یه دوره رو انتخاب کن و مسیر رو شروع کن</p>
+          <button className="bg-white border-none text-center ">شروع یادگیری</button>
         </Row>
         <Image
           aria-hidden
