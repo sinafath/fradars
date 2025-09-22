@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mb-36">
       <div className="w-full relative flex justify-center bg-[#000A2D] h-[158px] ">
         <Image
           aria-hidden
@@ -134,8 +134,67 @@ export default function Home() {
       <Card />
       <Header title="پربازدید ترین ها  " />
       <Card />
-            <Header title="نظر کاربران"  />
-<></>
+      <Header title="نظر کاربران" />
+      <Row className="mt-[22px] gap-[20px] ms-[24px] overflow-y-auto no-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <Column className={'w-[397px] flex-shrink-0  relative  py-[10px]  px-[20px] pb-[53px] rounded-[20px] border-[1px] border-solid border-[#D4D4D4]'}>
+
+          <Row justify="between" className="mt-[24px] w-full">
+            <Row className="gap-[12px] text-[16px] text-[#808080]">
+              <img src="/14.svg" />
+              <div>مهران ۲۴ ابان</div>
+
+            </Row>
+            <Row className="gap-[12px] flex-row-reverse text-[16px] text-[#808080]">
+              <img src="/8.svg" />
+              <img src="/8.svg" />
+              <img src="/8.svg" />
+              <img src="/8.svg" />
+              <img src="/8.svg" />
+              <p className="text-[20px] text-[#7894CE] absolute bottom-4"> مشاهده بیشتر</p>
+
+            </Row>
+          </Row>
+          <p className="mt-[12px] text-[2۰px]">تمامی مجتوا این دوره از جمله ویدیو ها، تمرین ها، آژمون ها و فایل بنامه ها و پروژه ها به گونه ای طراحی شده اند که یادگیری...</p>
+
+
+        </Column>
+
+      </Row>
+      <Row className="fixed bottom-0 w-full h-[132px] bg-white pb-[20px] ">
+        <Column className="flex-1">
+          <div>
+            <img src="/10.svg" />
+          </div>
+          <div className="text-[#3760BB] text-[22px]">
+            خانه
+          </div>
+        </Column>
+        <Column className="flex-1">
+          <div>
+            <img src="/11.svg" />
+          </div>
+          <div className="text-[#A2A2A2] text-[22px]">
+            خانه
+          </div>
+        </Column>
+        <Column className="flex-1">
+          <div>
+            <img src="/12.svg" />
+          </div>
+          <div className="text-[#A2A2A2] text-[22px]">
+            خانه
+          </div>
+        </Column>
+        <Column className="flex-1" >
+          <div>
+            <img src="/13.svg" />
+          </div>
+          <div className="text-[#A2A2A2] text-[22px]">
+            خانه
+          </div>
+        </Column>
+      </Row>
+
     </div>
   );
 }
