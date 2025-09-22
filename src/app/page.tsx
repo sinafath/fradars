@@ -134,6 +134,8 @@ export default function Home() {
       <Card />
       <Header title="پربازدید ترین ها  " />
       <Card />
+            <Header title="نظر کاربران"  />
+<></>
     </div>
   );
 }
