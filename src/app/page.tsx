@@ -123,7 +123,7 @@ export default function Home() {
         </Row>
         <Image
           aria-hidden
-          className="absolute left-0 z-[-1]"
+          className="absolute left-0 z-[-1] w-full"
           src="/9.png"
           alt="File icon"
           width={561}
