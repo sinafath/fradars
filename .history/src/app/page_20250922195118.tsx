@@ -158,28 +158,7 @@ export default function Home() {
 
 
         </Column>
-      <Column className={'w-[397px] flex-shrink-0  relative  py-[10px]  px-[20px] pb-[53px] rounded-[20px] border-[1px] border-solid border-[#D4D4D4]'}>
 
-          <Row justify="between" className="mt-[24px] w-full">
-            <Row className="gap-[12px] text-[16px] text-[#808080]">
-              <img src="/14.svg" />
-              <div>مهران ۲۴ ابان</div>
-
-            </Row>
-            <Row className="gap-[12px] flex-row-reverse text-[16px] text-[#808080]">
-              <img src="/8.svg" />
-              <img src="/8.svg" />
-              <img src="/8.svg" />
-              <img src="/8.svg" />
-              <img src="/8.svg" />
-              <p className="text-[20px] text-[#7894CE] absolute bottom-4"> مشاهده بیشتر</p>
-
-            </Row>
-          </Row>
-          <p className="mt-[12px] text-[2۰px]">تمامی مجتوا این دوره از جمله ویدیو ها، تمرین ها، آژمون ها و فایل بنامه ها و پروژه ها به گونه ای طراحی شده اند که یادگیری...</p>
-
-
-        </Column> 
       </Row>
       <Row className="fixed bottom-0 w-full h-[132px] bg-white pb-[20px] ">
         <Column className="flex-1">
